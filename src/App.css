@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.intro{
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+
+.App-header {
+  background-color: #ECECEC;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #616060;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #081B2E;
+  font-family: 'Lato', sans-serif;
+  color: #616060;
+  height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  width: 100%;
+  padding: 2%;
+  background: #ECECEC;
+  margin: 0;
+}
+
+h2{
+  font-weight: 100;
+  color: #FFFFFF;
+
+}
+
+.MuiTypography-body1 {
+  font-size: 1 rem!important;
+  font-family:'Lato', sans-serif!important;
+  font-weight: 400!important;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+
+.btn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
