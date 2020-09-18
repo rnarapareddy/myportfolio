@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 import Chip from './components/Chips';
 import ControlledExpansionPanels from './components/ControlledExpansionPanels'
 import TitlebarGridList from './components/TitlebarGridList'
@@ -142,9 +142,9 @@ function App() {
               <Grid item xs={12} sm={4}>
                 <h2 style={{ color: '#FFFFFF' }}>Social Media</h2>
                 <ul style= {{listStyle: "none"}}>
-                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://codepen.io/" target="_blank"><i class="fa fa-codepen"></i> Codepen</a></li>
-                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://github.com/" target="_blank" title="Dinesh's Github"><i class="fa fa-github"></i> Github</a></li>
-                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://www.linkedin.com/in/dinesh-tathekalva" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://codepen.io/" target="_blank" rel="noopener noreferrer"><i class="fa fa-codepen"></i> Codepen</a></li>
+                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://github.com/" target="_blank" rel="noopener noreferrer" title="Dinesh's Github"><i class="fa fa-github"></i> Github</a></li>
+                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://www.linkedin.com/in/dinesh-tathekalva" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
                 </ul>
               </Grid>
               <Grid item xs={12} sm={4}>
