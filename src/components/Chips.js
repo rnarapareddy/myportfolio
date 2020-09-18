@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Avatar from '@material-ui/core/Avatar';
+// import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
 
 const useStyles = makeStyles((theme) => ({
@@ -18,9 +18,9 @@ export default function Chips(props) {
   const classes = useStyles();
   const {skill} = props;
 
-  const handleDelete = () => {
-    console.info('You clicked the delete icon.');
-  };
+//   const handleDelete = () => {
+//     console.info('You clicked the delete icon.');
+//   };
 
   const handleClick = () => {
     console.info('You clicked the Chip.');
