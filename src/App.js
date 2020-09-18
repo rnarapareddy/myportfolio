@@ -22,7 +22,7 @@ import Dinesh_Tathekalva from './Dinesh_Tathekalva.pdf';
 
 const skills = ["Spring MVC", "Spring Boot 2.x", "Grails-2.x", "Hibernate", "Mybatis", "REST", "SOAP", "Eureka", "Cloud Config", "Cloud Stream", "Zuul", "Hystrix", 
 "OpenShift", "Kubernetes", "Docker", "Apache Tomcat", "Wildfly", "WebSphere Application Server", "AngularJS", "ExtJS", "GSP", "JavaScript", "RabbitMQ", "Kafka",
-"Pentaho ETL", "Birt Report", "Oracle APEX", "Agile development", "Jira", "Confluence", "Bamboo", "Bitbucket", "Jenkins" ]
+"Pentaho ETL", "Birt Report", "Oracle APEX", "Agile", "Jira", "Confluence", "Bamboo", "Bitbucket", "Jenkins" ]
 
 function App() {
   const skill = skills.map(i => (<Chip skill={i} />))
