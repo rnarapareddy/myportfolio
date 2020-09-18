@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Container from '@material-ui/core/Container';
-// import Typography from '@material-ui/core/Typography';
+import Typography from '@material-ui/core/Typography';
 import Chip from './components/Chips';
 import ControlledExpansionPanels from './components/ControlledExpansionPanels'
-import TitlebarGridList from './components/TitlebarGridList'
+// import TitlebarGridList from './components/TitlebarGridList'
 import Grid from '@material-ui/core/Grid';
 import Me from './components/Me.jpeg';
 import SAP from './components/SAP.svg';
