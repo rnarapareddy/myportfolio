@@ -18,7 +18,7 @@ import SimplePopover from './components/SimplePopover';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import GetAppIcon from '@material-ui/icons/GetApp';
-import Dinesh_Tathekalva from './Dinesh_Tathekalva.pdf';
+import RAJASEKHAR_N_Resume from './RAJASEKHAR_N_Resume.pdf';
 
 const skills = ["Spring MVC", "Spring Boot 2.x", "Grails-2.x", "Hibernate", "Mybatis", "REST", "SOAP", "Eureka", "Cloud Config", "Cloud Stream", "Zuul", "Hystrix", 
 "OpenShift", "Kubernetes", "Docker", "Apache Tomcat", "Wildfly", "WebSphere Application Server", "AngularJS", "ExtJS", "GSP", "JavaScript", "RabbitMQ", "Kafka",
@@ -150,7 +150,7 @@ function App() {
               <Grid item xs={12} sm={4}>
                 <h2 style={{ color: '#FFFFFF' }}>To know me better</h2>
                 <Button className="btn"  variant="outlined" >
-                  <GetAppIcon style={{color:'#FFFFFF', fontSize: 20, marginRight: '8px' }} /> <a style={{ color: "#FFFFFF", fontWeight: '300'  }} href={{Dinesh_Tathekalva}} class="btn button1">Download resume </a>
+                  <GetAppIcon style={{color:'#FFFFFF', fontSize: 20, marginRight: '8px' }} /> <a style={{ color: "#FFFFFF", fontWeight: '300'  }} href={{RAJASEKHAR_N_Resume}} class="btn button1">Download resume </a>
                 </Button>
               </Grid>
               <Grid item xs={12} sm={4}>
