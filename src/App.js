@@ -77,11 +77,6 @@ function App() {
               genomical data of the patient within seconds with the power of SAP HANA in the back-end and React.js in the front-end. I also worked on the back-end
               model which displays the health records of the patients in a time line and developed the front end using React.js and state managment with Redux.
               The application was built on multidimensional analysis which might be a future SAP patent.'
-
-              CCScontent=' Credit card shift is an internal
-              application used by Bank of America to change the segment of the credit card on the customer request.  The application also allows to process
-              and handle the international transactions between Bank of America and other banks to transfer the money from various banks to Bank of America
-              finding the minimum legs between banks when there is no direct contract. I developed the front-end of the application using HTML, CSS and JQuery'
             />
           </Typography>
         </Container>
