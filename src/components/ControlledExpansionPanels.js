@@ -25,7 +25,7 @@ export default function ControlledExpansionPanels(props) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
   const {COheading, COskills, COcontent, VTPheading, VTPskills, VTPcontent, IAAheading, IAAskills, 
-    IAAcontent, SHheading, SHskills, SHcontent, CCSheading, CCSskills, CCScontent} = props;
+    IAAcontent, SHheading, SHskills, SHcontent} = props;
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
@@ -91,22 +91,6 @@ export default function ControlledExpansionPanels(props) {
         <ExpansionPanelDetails>
           <Typography>
            {SHcontent}
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-
-      <ExpansionPanel expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel5bh-content"
-          id="panel5bh-header"
-        >
-          <Typography className={classes.heading}>{CCSheading}</Typography>
-          <Typography className={classes.secondaryHeading}>{CCSskills}</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-           {CCScontent}
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
