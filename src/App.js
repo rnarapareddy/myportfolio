@@ -18,7 +18,7 @@ import SimplePopover from './components/SimplePopover';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import GetAppIcon from '@material-ui/icons/GetApp';
-import RAJASEKHAR_N_Resume from './RAJASEKHAR_N_Resume.pdf';
+import RAJASEKHAR_N_Resume from './Raja_Narapareddy_Java_Resume.pdf';
 
 const skills = ["Spring MVC", "Spring Boot 2.x", "Grails-2.x", "Hibernate", "Mybatis", "REST", "SOAP", "Eureka", "Cloud Config", "Cloud Stream", "Zuul", "Hystrix", 
 "OpenShift", "Kubernetes", "Docker", "Apache Tomcat", "Wildfly", "WebSphere Application Server", "AngularJS", "ExtJS", "GSP", "JavaScript", "RabbitMQ", "Kafka",
