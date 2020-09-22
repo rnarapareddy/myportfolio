@@ -54,20 +54,14 @@ function App() {
         <Container maxWidth='md' style={{ backgroundColor: '#0F4657', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>PROJECTS</h2>
           <Typography component="div" style={{ justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-            <ControlledExpansionPanels COheading='Club ordering' VTPheading='Visa Travel Predict' IAAheading="Insurance Auto Auctions" SHheading='Stanford Health' CCSheading='Credit Card Shift'
+            <ControlledExpansionPanels COheading='Integration Broker' VTPheading='Biospecimen Management System' IAAheading="Enterprise Patient Hub" SHheading='Application Lifecycle Manager' CCSheading='Credit Card Shift'
 
-              COskills='React.js, React Native, Redux, ES6, HTML5, CSS3, LESS' VTPskills='React.js, Redux, ES6, D3.js, HTML5, CSS3' IAAskills='React.js, Redux, ES6, HTML5, CSS3, Bootstrap'
+              COskills='OpenShift, Docker, Spring Boot, Spring Cloud, Mircorservices, Unifier, Kuali Financial System (KFS) , Jaggaer systems' VTPskills='Grails, Spring, Wildfly, Pentaho, Birt, Oracle 12c' IAAskills='Spring MVC, IBM MDM, WebSphere Application Server, GIT, EJB'
               SHskills='React.js, Redux, JavaScript, HTML5, CSS3, SAP HANA' CCSskills='JQuery, HTML, CSS, JAVA, MySQL'
 
-              COcontent='Club ordering is an internal web and mobile application developed for the
-              associates who work at the Samsclub for restocking the items that are running out in the club. The admin portal which is a web based single page
-              application built using React.js. React Native based mobile application is used by the associates at clubs for scanning and placing the orders for
-              restocking at the club. Redux is used for state management in both web and mobile applications.'
+              COcontent='The Integration project is designed for the data flow across the Unifier, Kuali Financial System (KFS) , Jaggaer systems. Entity driven Microservice architecture is used for the project. RabbitMQ as messaging and Oracle Exadata as DB are used. Purchase order, Purchase Requisition, Invoices and other various entities were synced accross all three systems. Spring Boot and cloud components like Eureka, Cloud Config, Cloud Stream, Zuul, Hystrix are used'
 
-              VTPcontent="Visa Travel Predict is a suite of predictive machine learning scores related
-              to a cardholder's travel behavior that can help banks identify the right cardholders for marketing campaigns which is a React.js based application.
-              Targeted marketing campaigns could then help improve a cardholder's travel experience by providing more relevant offers and help increase cross
-              border payments."
+              VTPcontent="The Alliance Biospecimen Management System (BioMS) is a web-based application that has been designed to support biospecimen tracking, inventory management, and reporting for cancer clinical trials. Along with BioMS, number of integration components were developed to sync data between various systems. Tech stack including Grails, Spring Boot, Wildfly are used."
 
               IAAcontent='Insurance Auto Auctions is a car bidding single page application. The
               customer can go through the thousands of used/ totaled cars using fast and advanced search, bid online and have them shipped anywhere in the united
